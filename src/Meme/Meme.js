@@ -37,6 +37,7 @@ export const Meme = () => {
 			body: formData,
 		}).then((res) => {
 			res.json().then((res) => {
+				console.log(res);
 				history.push(`/memecreado?url=${res.data.url}`);
 			});
 		});
