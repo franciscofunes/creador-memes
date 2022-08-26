@@ -23,7 +23,7 @@ export const MemeGenerated = () => {
 			</button>
 			{url && <img alt='memeCreado' src={url} />}
 			<button onClick={copyLink} className={styles.copy}>
-				{copied ? 'Link copiado!' : 'Copia el link de tu Meme'}
+				{copied ? 'Link copiado 😎' : 'Copia el link de tu Meme 💡'}
 			</button>
 		</div>
 	);
