@@ -21,10 +21,10 @@ export const MemeGenerated = () => {
 			<button onClick={() => history.push('/')} className={styles.home}>
 				Crear más Memes
 			</button>
-			{url && <img alt='memeCreado' src={url} />}
 			<button onClick={copyLink} className={styles.copy}>
 				{copied ? 'Link copiado 😎' : 'Copia el link de tu Meme 💡'}
 			</button>
+			{url && <img alt='memeCreado' src={url} />}
 		</div>
 	);
 };
