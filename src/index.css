@@ -29,6 +29,7 @@ button {
 }
 img {
 	visibility: hidden;
+	width: 400px;
 	max-width: 50%;
 	height: auto;
 	margin: 50px auto;
